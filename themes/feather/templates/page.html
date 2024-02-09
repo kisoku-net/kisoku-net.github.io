@@ -1,0 +1,45 @@
+{% extends "index.html" %}
+{% import "macros.html" as m %}
+{% block content %}
+<div class='container'>
+	<section class="post">
+		<div class="title-and-info">
+			<h2>{{ page.title }}</h2>
+			<div class="info">
+				<span>{{ page.date | date(format="%Y %b %d") }}</span>
+				<span class='divider' />
+				<span>{{ page.reading_time }} minute read</span>
+				{% if page.category %}
+				<span class='divider' />
+				<!-- link to page category if user is building categories -->
+				{% if config.generate_categories_pages %}
+				<span><a href="/categories/{{page.category}}">{{ page.category }}</a></span>
+				{% else %}
+				<span>{{ page.category }}</span>
+				{% endif %}
+				{% endif %}
+			</div>
+		</div>
+		<article>
+			{% set prev = false %}
+			{% set next = false %}
+			{% if page.extra.prev %}
+			{% set prev = page.extra.prev %}
+			{% endif %}
+			{% if page.extra.next %}
+			{% set next = page.extra.next %}
+			{% endif %}
+
+			{{ m::chapter(prev=prev, next=next) }}
+			{{ page.content | safe }}
+			{{ m::chapter(prev=prev, next=next) }}
+		</article>
+	</section>
+	{% if config.extra.feather_disqus_domain %}
+	<div id='disqus_thread'></div>
+	<script> var disqus_config = function () { }; (function () { var d = document, s = d.createElement('script'); s.src = 'https://{{ config.extra.feather_disqus_domain }}.disqus.com/embed.js'; s.setAttribute('data-timestamp', +new Date()); (d.head || d.body).appendChild(s); })();</script>
+	<noscript>Please enable JavaScript to view the <a href='https://disqus.com/?ref_noscript'>comments powered by
+			Disqus.</a></noscript>
+	{% endif %}
+</div>
+{% endblock content %}

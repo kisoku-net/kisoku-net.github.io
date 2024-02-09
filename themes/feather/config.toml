@@ -1,0 +1,22 @@
+# This is an example file to help you get started.
+# This also lets you run `zola serve` just in the themes directory
+# for easier development.
+
+# The URL the site will be built for
+base_url = "https://feather.doomy.org/"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+taxonomies = [{ name = "tags", feed = true }]
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+highlight_themes_css = [
+  { theme = "ayu-dark", filename = "syntax-theme-dark.css" },
+  { theme = "ayu-light", filename = "syntax-theme-light.css" },
+]
+
+[extra]
+feather_analytics = "<script></script>"
+# feather_disqus_domain = "mysite-com"
