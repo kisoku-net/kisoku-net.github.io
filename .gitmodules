@@ -1,0 +1,3 @@
+[submodule "themes/kisanpu"]
+	path = themes/kisanpu
+	url = https://github.com/kisoku/kisanpu-zola-theme

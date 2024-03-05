@@ -1,6 +1,5 @@
 # The URL the site will be built for
-base_url = "http://127.0.0.1:1111/"
-# base_url = "https://kisoku.net/"
+base_url = "/"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -8,18 +7,23 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
-theme = "feather"
+generate_feed = true
+
+theme = "kisanpu"
+
+taxonomies = [
+    { name = "categories" },
+    { name = "tags" },
+]
+
+title = "Kisoku.NET | Learning How to Breathe && Drive"
+description = "Kisoku.NET | Learning How to Breathe && Drive"
 
 [markdown]
 
-highlight_code = true
-highlight_theme = "css"
-highlight_themes_css = [
-  { theme = "ayu-dark", filename = "syntax-theme-dark.css" },
-  { theme = "ayu-light", filename = "syntax-theme-light.css" },
-]
-taxonomies = [{ name = "tags", feed = true }]
-
 [extra]
-feather_analytics = "<script></script>"
-# feather_disqus_domain = "mysite-com"
+
+anpu_menu_links = [
+    # { url = "$BASE_URL/people/", name = "People" },
+    # { url = "$BASE_URL/music/", name = "Music" }
+]
