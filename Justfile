@@ -1,5 +1,5 @@
 ci:
-  check
+  zola check
 
 serve:
   zola check
@@ -7,11 +7,19 @@ serve:
 
 push: 
   env PAGER='' git branch -l 
-  git branch -t upstream/main
-  git push upstream HEAD
+  git branch -t origin/main
+  git push origin HEAD
 
 pr:
   gh pr create 
 
 deploy:
-  gh pr create --base main --target gh-pages
+  git branch -d gh-pages || true
+  git checkout -t origin/gh-pages
+  git branch -u origin/main
+  git pull
+  zola build --output-dir=docs
+  git add public
+  git commit -m "deploy: updating gh-pages from main $(date)"
+  git push origin gh-pages
+
