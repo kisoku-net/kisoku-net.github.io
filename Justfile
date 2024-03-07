@@ -14,12 +14,13 @@ pr:
   gh pr create 
 
 deploy:
-  git branch -d gh-pages || true
+  git branch -D gh-pages || true
   git checkout -t origin/gh-pages
   git branch -u origin/main
   git pull
   zola build --output-dir=docs
-  git add public
-  git commit -m "deploy: updating gh-pages from main $(date)"
+  echo 'kisoku.net' > docs/CNAME
+  git add docs
+  git commit -m "deploy: updating gh-pages from main $(date -I)"
   git push origin gh-pages
 
