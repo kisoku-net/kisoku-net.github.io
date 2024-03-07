@@ -22,5 +22,5 @@ deploy:
   echo 'kisoku.net' > docs/CNAME
   git add docs
   git commit -m "deploy: updating gh-pages from main $(date -I)"
-  git push origin gh-pages
+  git push origin gh-pages --force-with-lease
 
