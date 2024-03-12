@@ -16,14 +16,15 @@ taxonomies = [
     { name = "tags" },
 ]
 
-title = "Kisoku.NET | Learning How to Breathe && Drive"
-description = "Kisoku.NET | Learning How to Breathe && Drive"
+title = "Kisoku.NET | Learning How to Breathe"
+description = "Kisoku.NET | Learning How to Drive"
 
 [markdown]
 
 [extra]
 
 anpu_menu_links = [
+    # { url = "$BASE_URL/about/", name = "About" },
     # { url = "$BASE_URL/people/", name = "People" },
     # { url = "$BASE_URL/music/", name = "Music" }
 ]
