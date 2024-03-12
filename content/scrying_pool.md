@@ -1,6 +1,7 @@
 +++
 title = "New Scrying Pool Release"
 date = "2023-03-12"
+tags = ["blog", "music"]
 +++
 
 I've been busy improving my Music Production skills for the last few months, here's a small round up of my efforts to date:
