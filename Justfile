@@ -3,7 +3,7 @@ ci:
 
 serve:
   zola check
-  zola serve
+  zola serve --force
 
 push: 
   env PAGER='' git branch -l 
