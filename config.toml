@@ -1,4 +1,3 @@
-author = "Mathieu Sauve-Frankel"
 # The URL the site will be built for
 base_url = "/"
 
@@ -9,6 +8,7 @@ compile_sass = true
 build_search_index = true
 
 generate_feed = true
+feed_filename = "atom.xml"
 
 theme = "kisanpu"
 
@@ -21,9 +21,12 @@ title = "Kisoku.NET | Learning How to Breathe"
 description = "Kisoku.NET | Learning How to Drive"
 
 [markdown]
+highlight_code = true
+highlight_theme = "cheerfully-light"
+
 
 [extra]
-
+author = "Mathieu Sauve-Frankel"
 anpu_menu_links = [
     # { url = "$BASE_URL/about/", name = "About" },
     # { url = "$BASE_URL/people/", name = "People" },
