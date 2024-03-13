@@ -18,7 +18,7 @@ deploy:
   git checkout -t origin/gh-pages
   git branch -u origin/main
   git pull
-  zola build --output-dir=docs --force
+  zola build --base-url=https://kisoku.net --output-dir=docs --force
   echo 'kisoku.net' > docs/CNAME
   git add docs
   git commit -m "deploy: updating gh-pages from main $(date -I)"
