@@ -1,8 +1,8 @@
-on: push, workflow_dispatch
+on: [push, workflow_dispatch]
 name: Build and deploy GH Pages
 jobs:
   build:
-    runs-on: self-hosted, arch
+    runs-on: [self-hosted, arch]
     steps:
       - name: checkout
         uses: actions/checkout@v4
