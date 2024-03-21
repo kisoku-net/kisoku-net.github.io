@@ -3,6 +3,7 @@ name: Build and deploy GH Pages
 jobs:
   build:
     runs-on: [self-hosted, arch]
+    if: github.ref == '**'
     steps:
       - name: checkout
         uses: actions/checkout@v4
