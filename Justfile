@@ -24,4 +24,3 @@ deploy:
   git commit -m "deploy: updating gh-pages from main $(date -I)"
   git push origin gh-pages --force-with-lease
   git checkout main
-

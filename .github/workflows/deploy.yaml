@@ -1,0 +1,14 @@
+on: push, workflow_dispatch
+name: Build and deploy GH Pages
+jobs:
+  build:
+    runs-on: self-hosted, arch
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: ci
+        run: just ci
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: build_and_deploy
+        run: just deploy
