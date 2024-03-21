@@ -1,3 +1,6 @@
 [submodule "themes/kisanpu"]
 	path = themes/kisanpu
 	url = https://github.com/kisoku/kisanpu-zola-theme
+[submodule "themes/abridge"]
+	path = themes/abridge
+	url = https://github.com/jieiku/abridge.git
