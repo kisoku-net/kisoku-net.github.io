@@ -24,4 +24,5 @@ jobs:
       uses: shalzz/zola-deploy-action@v0.18.0
       env:
         GITHUB_TOKEN: ${{ steps.create_token.outputs.token }}
+        BUILD_FLAGS: build --base-url=https://kisoku.net --output-dir=docs --force
         OUT_DIR: "docs"
