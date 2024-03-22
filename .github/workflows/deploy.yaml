@@ -21,7 +21,7 @@ jobs:
       uses: actions/checkout@v4
     - name: Build and deploy
       id: build_and_deploy
-      uses: kisoku/zola-deploy-action@kisoku/default_branch
+      uses: kisoku/zola-deploy-action@kisoku/default_branch2
       env:
         GITHUB_TOKEN: ${{ steps.create_token.outputs.token }}
         BUILD_FLAGS: --base-url=https://kisoku.net --output-dir=docs --force
