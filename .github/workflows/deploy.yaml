@@ -25,5 +25,6 @@ jobs:
       env:
         BUILD_FLAGS: --base-url=https://kisoku.net --output-dir=docs --force
         DEFAULT_BRANCH: "main"
+        GITHUB_ACTOR: ${{ secrets.GHA_APP_ID }}
         GITHUB_TOKEN: ${{ steps.create_token.outputs.token }}
         OUT_DIR: "docs"
