@@ -10,15 +10,18 @@ jobs:
     name: Publish site
     runs-on: ubuntu-latest
     steps:
-    - name: Generate Token
+    - name: Create Token
+      id: create_token
       uses: tibdex/github-app-token@v2
       with:
         app_id: ${{ secrets.GHA_APP_ID }}
         private_key: ${{ secrets.GHA_APP_KEY }}
     - name: Checkout main
+      id: checkout_main
       uses: actions/checkout@v4
     - name: Build and deploy
+      id: build_and_deploy
       uses: shalzz/zola-deploy-action@v0.18.0
       env:
-        GITHUB_TOKEN: ${{ secrets.ZOLA_GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ steps.create_token.outputs.token }}
         OUT_DIR: "docs"
