@@ -1,14 +1,24 @@
-on: push, workflow_dispatch
-name: Build and deploy GH Pages
+name: Zola on GitHub Pages
+
+on: 
+ push:
+  branches:
+   - main
+
 jobs:
   build:
-    runs-on: self-hosted, arch
+    name: Publish site
+    runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v4
-      - name: ci
-        run: just ci
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - name: build_and_deploy
-        run: just deploy
+    - name: Generate Token
+      uses: tibdex/github-app-token@v2
+      with:
+        app_id: ${{ secrets.GHA_APP_ID }}
+        private_key: ${{ secrets.GHA_APP_KEY }}
+    - name: Checkout main
+      uses: actions/checkout@v4
+    - name: Build and deploy
+      uses: shalzz/zola-deploy-action@v0.18.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.ZOLA_GITHUB_TOKEN }}
+        OUT_DIR: "docs"
