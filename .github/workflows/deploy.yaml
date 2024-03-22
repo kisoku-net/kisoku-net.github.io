@@ -23,6 +23,7 @@ jobs:
       id: build_and_deploy
       uses: kisoku/zola-deploy-action@kisoku/default_branch2
       env:
-        GITHUB_TOKEN: ${{ steps.create_token.outputs.token }}
         BUILD_FLAGS: --base-url=https://kisoku.net --output-dir=docs --force
+        DEFAULT_BRANCH: "main"
+        GITHUB_TOKEN: ${{ steps.create_token.outputs.token }}
         OUT_DIR: "docs"
