@@ -35,7 +35,7 @@ jobs:
         git commit -a -m "Deploy main to gh-pages"
     - name: Push changes
       uses: ad-m/github-push-action@master
-      branch: gh-pages
-      force: true
       with:
+        branch: gh-pages
+        force: true
         github_token: ${{ env.TOKEN }}
