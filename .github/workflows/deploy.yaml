@@ -32,7 +32,8 @@ jobs:
       run: |
         git config --local user.email "no-reply@kisoku.net"
         git config --local user.name "KisokuBOT"
-        git commit -a -m "Deploy main to gh-pages"
+        git add docs
+        git commit -m "KisokuBOT: Deploy main to gh-pages"
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
