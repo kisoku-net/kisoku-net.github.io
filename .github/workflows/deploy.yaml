@@ -7,24 +7,35 @@ on:
 
 jobs:
   build:
-    name: Publish site
     runs-on: ubuntu-latest
     steps:
-    - name: Create Token
-      id: create_token
-      uses: tibdex/github-app-token@v2
+    - uses: actions/checkout@v4
+      with:
+        ref: ${{ github.head_ref }}
+        fetch-depth: 0
+        persist-credentials: false
+    - name: Generate Githup App Token
+      id: generate_token
+      uses: tibdex/github-app-token@v1
       with:
         app_id: ${{ secrets.GHA_APP_ID }}
-        private_key: ${{ secrets.GHA_APP_KEY }}
-    - name: Checkout main
-      id: checkout_main
-      uses: actions/checkout@v4
-    - name: Build and deploy
-      id: build_and_deploy
+        installation_id: ${{ secrets.GHA_INSTALLATION_ID }} # FIXME
+        private_key:  ${{ secrets.GHA_APP_KEY }}
+    - name: Build Zola Site
+      id: build_zola_site
       uses: kisoku/zola-deploy-action@kisoku/default_branch2
       env:
         BUILD_FLAGS: --base-url=https://kisoku.net --output-dir=docs --force
-        DEFAULT_BRANCH: "main"
-        GITHUB_ACTOR: ${{ secrets.GHA_APP_ID }}
-        GITHUB_TOKEN: ${{ steps.create_token.outputs.token }}
+        BUILD_ONLY: true
         OUT_DIR: "docs"
+    - name: Commit files
+      run: |
+        git config --local user.email "no-reply@kisoku.net"
+        git config --local user.name "KisokuBOT"
+        git commit -a -m "Deploy main to gh-pages"
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      branch: gh-pages
+      force: true
+      with:
+        github_token: ${{ env.TOKEN }}
