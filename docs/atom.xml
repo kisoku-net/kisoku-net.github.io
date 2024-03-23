@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Kisoku.NET | Learning How to Breathe</title>
+    <subtitle>Kisoku.NET | Learning How to Drive</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://kisoku.net/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://kisoku.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-03-23T00:00:00+00:00</updated>
+    <id>https://kisoku.net/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Kisoku&#x27;s metal playlist March 18 - 21, 2024</title>
+        <published>2024-03-23T00:00:00+00:00</published>
+        <updated>2024-03-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://kisoku.net/playlist-2024031821/"/>
+        <id>https://kisoku.net/playlist-2024031821/</id>
+        
+        <content type="html" xml:base="https://kisoku.net/playlist-2024031821/">&lt;h1 id=&quot;a-trip-to-tokyo-gone-awry&quot;&gt;A trip to Tokyo gone awry&lt;&#x2F;h1&gt;
+&lt;p&gt;I recently took a small trip to Tokyo to meet some friends and do some sightseeing. It didn&#x27;t really go as planned but I managed to survive the trip and get back home safely.&lt;&#x2F;p&gt;
+&lt;p&gt;Here&#x27;s a playlist I made during the trip. All of the bands are quite excellent. I believe these are all available on bandcamp.com, so I will embed the players here:&lt;&#x2F;p&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=1839830338&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;rothadasdeathdoom.bandcamp.com&#x2F;album&#x2F;kop-r-hant-az-alvil-g-fel&quot;&gt;Kopár hant... az alvilág felé by Rothadás&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=2747238867&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tombmold.bandcamp.com&#x2F;album&#x2F;cerulean-salvation&quot;&gt;Cerulean Salvation by Tomb Mold&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=758269553&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;vanum.bandcamp.com&#x2F;album&#x2F;ageless-fire-2&quot;&gt;Ageless Fire by VANUM&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=136900385&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ashborer.bandcamp.com&#x2F;album&#x2F;the-irrepassable-gate&quot;&gt;The Irrepassable Gate by Ash Borer&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=2891745840&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;diskord.bandcamp.com&#x2F;album&#x2F;oscillations&quot;&gt;Oscillations by Diskord&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=4193290152&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;brii.bandcamp.com&#x2F;album&#x2F;sem-prop-sito&quot;&gt;Sem Propósito by Bríi&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=2284634550&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;listen.20buckspin.com&#x2F;album&#x2F;tide-turns-eternal&quot;&gt;Tide Turns Eternal by Dream Unending&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=967256187&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ehecatl-ebbm.bandcamp.com&#x2F;album&#x2F;rites-of-ascension-phase-ii-2&quot;&gt;Rites of Ascension_Phase: II by Ehecatl&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tabula Rasa</title>
+        <published>2024-03-05T00:00:00+00:00</published>
+        <updated>2024-03-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://kisoku.net/tabularasa/"/>
+        <id>https://kisoku.net/tabularasa/</id>
+        
+        <content type="html" xml:base="https://kisoku.net/tabularasa/">&lt;h1 id=&quot;a-slate-emblankened&quot;&gt;A slate, emblankened.&lt;&#x2F;h1&gt;
+&lt;p&gt;Welcome back...&lt;&#x2F;p&gt;
+&lt;p&gt;The urge to start over increases with each perceived failure. Perhaps it will be different this time. My writing skills atrophy over time, and as I become increasingly dependent on mental models, my frustration with my work exponentiates.&lt;&#x2F;p&gt;
+&lt;p&gt;Perhaps by continuing to exercise, entropy will be reduced.&lt;&#x2F;p&gt;
+&lt;p&gt;I have bigger plans for this site, best left unspoken for now. I will also dedicate some effort to restoring the historical content of this site in due time.&lt;&#x2F;p&gt;
+&lt;p&gt;Until then, I shall ponder the void a little longer.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Scrying Pool Releases</title>
+        <published>2023-03-12T00:00:00+00:00</published>
+        <updated>2023-03-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://kisoku.net/music/scrying-pool/"/>
+        <id>https://kisoku.net/music/scrying-pool/</id>
+        
+        <content type="html" xml:base="https://kisoku.net/music/scrying-pool/">&lt;p&gt;Scrying Pool is the latest project by Mathieu Sauve-Frankel.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;album&#x2F;iii&quot;&gt;Released on Feb 14th, 2024: III&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=3773827828&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;album&#x2F;iii&quot;&gt;III by Scrying Pool&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;album&#x2F;ii&quot;&gt;Released on March 12th, 2024: II&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=1792261708&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;album&#x2F;ii&quot;&gt;II by Scrying Pool&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;follow_me&quot;&gt;Follow me on Bandcamp&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Please pay close attention to the Engineering Notes, as they are live documents that are updated from time to time.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
