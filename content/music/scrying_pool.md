@@ -16,6 +16,11 @@ Scrying Pool is the latest project by Mathieu Sauve-Frankel.
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1792261708/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://scryingpool.bandcamp.com/album/ii">II by Scrying Pool</a></iframe>
 
+* [Released on April 1st, 2024: I](https://scryingpool.bandcamp.com/album/i)
+
+<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=94006111/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://scryingpool.bandcamp.com/album/i">I by Scrying Pool</a></iframe>
+
 * [Follow me on Bandcamp](https://scryingpool.bandcamp.com/follow_me)
+* [Follow me on DistroKid]()
 
 Please pay close attention to the Engineering Notes, as they are live documents that are updated from time to time.
