@@ -3,7 +3,7 @@ name: Zola on GitHub Pages
 on: 
  push:
   branches:
-   - main
+   - '**'
 
 jobs:
   build:
@@ -32,6 +32,7 @@ jobs:
         OUT_DIR: "docs"
     - name: Commit files
       id: commit_files
+      if: success() && github.ref == 'refs/heads/main'
       run: |
         git config --local user.email "no-reply@kisoku.net"
         git config --local user.name "KisokuBOT"
@@ -39,6 +40,7 @@ jobs:
         git commit -m "KisokuBOT: Deploy main to gh-pages"
     - name: Push changes
       id: push
+      if: success() && github.ref == 'refs/heads/main'
       uses: ad-m/github-push-action@master
       with:
         branch: gh-pages
