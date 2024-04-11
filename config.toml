@@ -30,5 +30,6 @@ author = "Mathieu Sauve-Frankel"
 anpu_menu_links = [
     # { url = "$BASE_URL/about/", name = "About" },
     # { url = "$BASE_URL/people/", name = "People" },
-    { url = "$BASE_URL/music/", name = "Music" }
+    { url = "$BASE_URL/music/", name = "Music" },
+    { url = "$BASE_URL/resume/msf/", name = "Resume" }
 ]
