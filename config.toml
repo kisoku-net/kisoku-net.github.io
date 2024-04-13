@@ -52,6 +52,10 @@ name = "rss"
 url = "$BASE_URL/atom.xml"
 
 [[extra.menu]]
+name = "Blog"
+url = "$BASE_URL/"
+
+[[extra.menu]]
 name = "Music"
 url = "$BASE_URL/music/"
 
