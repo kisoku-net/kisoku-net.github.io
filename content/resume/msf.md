@@ -19,7 +19,7 @@ to challenge and improve myself.
 
 ## Skills
 
-TCP/IP, Unix/Linux, Kubernetes, CI/CD, git, IPsec, Firewalls, Oauth 2.0, Observability, AWS, GCP, Bare Metal
+TCP/IP, Unix/Linux, Kubernetes, Configuration Management, Terraform, CI/CD, git, IPsec, Firewalls, Oauth 2.0, Observability, AWS, GCP, Bare Metal
 
 ## Work History
 
