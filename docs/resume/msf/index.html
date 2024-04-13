@@ -1,0 +1,589 @@
+<!doctype html>
+<html class="not-ready lg:text-base" lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>
+    Mathieu Sauve-Frankel - Kisoku.NET | Learning How to Breathe
+  </title>
+
+  <!-- Meta -->
+  <meta name="theme-color" />
+
+  <!-- Author -->
+  
+  <meta name="description" content="Mathieu Sauve-Frankel" />
+  <meta name="author" content="Mathieu Sauve-Frankel" />
+  
+
+  <!-- CSS & JS -->
+  <link rel="preload stylesheet" as="style" href="https://kisoku.net/main.css" />
+  <style>
+    :root {
+      --bg: #f4f4f5;
+      --bg-dark: #18181b;
+      --header: #e4e4e7;
+      --header-dark: #27272a;
+    }
+  </style>
+
+  
+
+  <!-- Dark Icon -->
+  <link rel="preload" as="image" href="https://kisoku.net/icons/theme.svg" />
+
+  <!-- Math -->
+  
+  <!---->
+
+  <!-- Mermaid -->
+  
+  <!---->
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://kisoku.net/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://kisoku.net/apple-touch-icon.png" />
+
+  <!-- Feeds -->
+  
+  <!---->
+  
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    title="Atom"
+    href="https://kisoku.net/atom.xml"
+  />
+  
+  <!---->
+  
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https:&#x2F;&#x2F;kisoku.net&#x2F;resume&#x2F;msf&#x2F;" />
+</head>
+
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header
+  class="header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
+>
+  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center">
+        <a class="text-2xl font-semibold" href="https://kisoku.net">Kisoku.NET | Learning How to Breathe</a>
+        <div
+          class="btn-dark ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] [background:url(./icons/theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+          role="button"
+          aria-label="Dark"
+        ></div>
+      </div>
+      
+      <div
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        role="button"
+        aria-label="Menu"
+      ></div>
+      
+    </div>
+    <script>
+      // base
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove("not-ready");
+      }, 10);
+
+      // mobile menu
+      const btnMenu = document.querySelector(".btn-menu");
+      btnMenu?.addEventListener("click", () => {
+        htmlClass.toggle("open");
+      });
+
+      // dark theme
+      const setDark = (isDark) => {
+        if (isDark) {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "dark" }));
+          htmlClass.add("dark");
+        } else {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "light" }));
+          htmlClass.remove("dark");
+        }
+        localStorage.setItem("dark", isDark);
+      };
+
+      // init
+      const darkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      if (htmlClass.contains("dark")) {
+        setDark(true);
+      } else {
+        const darkVal = localStorage.getItem("dark");
+        setDark(darkVal ? darkVal === "true" : darkScheme.matches);
+      }
+
+      // listen system
+      darkScheme.addEventListener("change", (event) => {
+        setDark(event.matches);
+      });
+
+      // manual switch
+      const btnDark = document.querySelector(".btn-dark");
+      btnDark.addEventListener("click", () => {
+        setDark(localStorage.getItem("dark") !== "true");
+      });
+    </script>
+    
+    <nav class="flex w-full items-center lg:w-auto">
+      <ul
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+      >
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://kisoku.net/"
+            >Blog</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://kisoku.net/music/"
+            >Music</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://kisoku.net/resume/msf/"
+            >Resume</a
+          >
+        </li>
+        
+      </ul>
+    </nav>
+    
+  </div>
+</header>
+
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl break-words px-4 pb-16 pt-32 dark:prose-invert"
+    >
+      
+<article>
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">Mathieu Sauve-Frankel</h1>
+    <div class="text-sm antialiased opacity-60">
+  
+  <time>2024-04-11</time>
+  <span class="mx-1">&middot;</span>
+  <span>6min</span>
+  <!---->
+  
+  <!---->
+  
+</div>
+
+  </header>
+
+  
+
+  <!-- TOC -->
+  <!---->
+<div class="block-bg mb-12 flex rounded-lg p-2 text-lg">
+  <details>
+    <summary class="cursor-pointer py-1 pl-4">
+      <span>Table of Contents</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#summary"
+            >Summary</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#skills"
+            >Skills</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#work-history"
+            >Work History</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#woven-by-toyota-staff-infrastructure-engineer"
+                >Woven by Toyota, Staff Infrastructure Engineer</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#fastly-japan-kk-principal-site-reliability-engineer"
+                >Fastly Japan KK, Principal Site Reliability Engineer</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#qualcomm-japan-staff-engineer-office-of-the-chief-scientist"
+                >Qualcomm Japan, Staff Engineer, Office of the Chief Scientist</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#system-administrator-newedge"
+                >System Administrator, Newedge</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#senior-system-administrator-sbi-japannext"
+                >Senior System Administrator, SBI Japannext</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#independent-consultant"
+                >Independent Consultant</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#network-technician-penson-financial-services-canada-inc"
+                >Network Technician, Penson Financial Services Canada Inc.</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#network-administrator-secureops-inc"
+                >Network Administrator, SecureOps Inc</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#network-administrator-philosophie-bleue-inc"
+                >Network Administrator, Philosophie Bleue Inc.</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#professional-associations"
+            >Professional Associations</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#co-founder-recon-security-conference"
+                >Co-Founder Recon Security Conference</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#openbsd-developer"
+                >OpenBSD Developer</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#education"
+            >Education</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#languages"
+            >Languages</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://kisoku.net/resume/msf/#hobbies"
+            >Hobbies</a
+          >
+          
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+</div>
+
+<!---->
+
+  <!-- Content -->
+  <section><p><em><a href="https://kisoku.net">https://kisoku.net</a></em></p>
+<p><em><a href="mailto:msf@kisoku.net">msf@kisoku.net</a></em></p>
+<h2 id="summary">Summary</h2>
+<p>I am an automation engineer with over 20 years of experience. Self-motivated
+and autonomous, I bring a broad mix of systems, networking and security experience
+to bear in my day to day activities. A wearer of many hats, I am constantly looking
+to challenge and improve myself.</p>
+<h2 id="skills">Skills</h2>
+<p>TCP/IP, Unix/Linux, Kubernetes, Configuration Management, Terraform, CI/CD, git, IPsec, Firewalls, Oauth 2.0, Observability, AWS, GCP, Bare Metal</p>
+<h2 id="work-history">Work History</h2>
+<h3 id="woven-by-toyota-staff-infrastructure-engineer">Woven by Toyota, Staff Infrastructure Engineer</h3>
+<p><em>2021 - Present</em></p>
+<p>Lead Engineer for the Agora Platform Infrastructure team</p>
+<ul>
+<li>Technical lead for cross-disciplinary team of 14 engineers in a larger
+team of 70+ engineers</li>
+<li>Acted as chief recruiter, selecting resumes, grading take home challenges, conducting interviews and member of the recommending committee</li>
+<li>Architected Multi-Region, multi-cluster kubernetes cluster using AWS EKS in IPv6 Mode</li>
+<li>Worked with Build and Test engineers supporting a Bazel based monorepo
+build system for 200+ application engineers</li>
+<li>Evaluated and implemented CI/CD solutions for kubernetes, including
+Flux and Prow</li>
+<li>Worked with CI/CD team to build custom GitHub event handler software
+for custom CI/CD solution</li>
+<li>Implemented automated Terraform CI/CD using Terragrunt and GitHub
+Actions</li>
+<li>Implemented advanced GitHub actions security using Oauth 2.0 and
+GitHub Applications</li>
+<li>Implemented Istio service mesh in a multi-cluster configuration using
+Solo.io Gloo Mesh</li>
+<li>Worked closely with security architects on platform threat model</li>
+<li>Negotiated requirements with Woven City service teams</li>
+</ul>
+<h3 id="fastly-japan-kk-principal-site-reliability-engineer">Fastly Japan KK, Principal Site Reliability Engineer</h3>
+<p><em>2015 - 2021</em>
+Worked as the technical lead for Fastly’s Automation engineering efforts.</p>
+<ul>
+<li>Technical lead on infrastructure automation for Fastly’s edge product</li>
+<li>Acted as architect and primary implementor for a multi year effort to rewrite Fastly’s production Chef code base from the ground up.</li>
+<li>Trained and mentored dozens of engineers.</li>
+<li>Designed and implemented developer and CI tooling for automated Chef development workflows</li>
+<li>Designed and implemented cloud infrastructure for Chef and CI using Terraform +
+GCP + AWS</li>
+<li>Designed a replacement for chef-vault using Hashicorp Vault as backend2</li>
+<li>Worked as part of the SRE team responsible for Fastly's Data Plane. </li>
+<li>On-call for several years, responded to both production and security
+incidents</li>
+<li>Worked closely with service teams responsible for Fastly's Control
+Plane.</li>
+</ul>
+<h3 id="qualcomm-japan-staff-engineer-office-of-the-chief-scientist">Qualcomm Japan, Staff Engineer, Office of the Chief Scientist</h3>
+<p><em>2010 - Present</em></p>
+<p>Works as part of the Qualcomm Open Source Portal team, an engineering
+group responsible for Open Source Evangelism, Education and License Compliance</p>
+<ul>
+<li>Technical lead for QOSP's operations team</li>
+<li>Responsible for designing and implementing QOSP's automation and release infrastructure</li>
+<li>Wrote test harness for QOSP's flagship product</li>
+<li>Worked with QA engineers to implement automated testing</li>
+<li>Wrote distributed source code mirror system for QOSP's flagship product</li>
+<li>Wrote several tools to automate day-to-day operational tasks</li>
+<li>Researched and evaluated many different open source technologies for potential
+use within QOSP's products</li>
+<li>Worked as a point of contact with both internal and external vendors</li>
+<li>Acted as primary decision maker for QOSP's hardware budget</li>
+<li>Primarily responsible for QOSP's Continuous Integration infrastructure</li>
+<li>Primarily responsible for QOSP's Chef Server infrastructure</li>
+<li>Provided mentoring and guidance to members of both development and operations teams</li>
+<li>Represented Qualcomm's interests at Chef community events</li>
+<li>Wrote docker-based package builder used by several of QOSP's product lines</li>
+</ul>
+<h3 id="system-administrator-newedge">System Administrator, Newedge</h3>
+<p><em>2009 - 2010</em></p>
+<p>Responsible for both Unix and Network administration duties at the largerst
+commodities brokerage in Japan.</p>
+<ul>
+<li>Network implementations for colocated customers, included many visits
+to the Osaka Securities Exchange data centers</li>
+<li>Firewall, Switch and Router administration</li>
+<li>Linux server administrator for a variety of Financial applications</li>
+<li>Replaced an aging Big Brother implementation with Nagios</li>
+<li>Implemented Chef for Linux server management</li>
+</ul>
+<h3 id="senior-system-administrator-sbi-japannext">Senior System Administrator, SBI Japannext</h3>
+<p><em>2007 - 2009</em></p>
+<p>Worked as Senior System Administrator at a private stock exchange in Tokyo.
+My largets project was the design, implementation and launch of a new data center
+for the company's second production exchange.</p>
+<ul>
+<li>Worked closely with hardware vendors to draft specification for 400 server
+data center</li>
+<li>Designed the network architecture for new data center</li>
+<li>Automated bare-metal deployment of stock exchange using puppet, cobbler and
+redhat</li>
+<li>Mentored junior engineers on automation technologies and development practices</li>
+<li>Implemented virtualized testing using Xen server and Cobbler</li>
+<li>Wrote my own Puppet node classifier in Perl (yes, Perl)</li>
+</ul>
+<h3 id="independent-consultant">Independent Consultant</h3>
+<p><em>2005 - 2007</em></p>
+<p>Implementor of network security and systems management, with a focus on OpenBSD
+and networking equipment.</p>
+<ul>
+<li>Implemented centralized authentication services with LDAP.</li>
+<li>Implemented centralized logging infrastructure.</li>
+<li>Implemented network monitoring with Nagios, Prelude and Snort.</li>
+<li>Implemented fail over IPsec gateways and Firewalls with OpenBSD.</li>
+<li>Implemented automated deployment systems with Puppet.</li>
+<li>Day to day system administration and monitoring duties for selected customers</li>
+</ul>
+<h3 id="network-technician-penson-financial-services-canada-inc">Network Technician, Penson Financial Services Canada Inc.</h3>
+<p><em>2003-2005</em></p>
+<ul>
+<li>
+<p>Responsible for networking infrastructure and Unix server
+infrastructure in a medium sized financial company. </p>
+</li>
+<li>
+<p>Worked in a multi-site environment, Job responsibilities included frequent travel between Montreal and Toronto to maintain networked systems located at both in house and third party sites, such as the Toronto Stock Exchange.</p>
+</li>
+<li>
+<p>Worked in an environment with many WAN connections, both to internal
+organizations, and external third parties. Acted as of point of contact with
+telecoms when troubleshooting problematic WAN links</p>
+</li>
+<li>
+<p>Implemented dynamic routing between WAN sites, including OSPF, BGP, and PIM.</p>
+</li>
+<li>
+<p>Built and maintained network monitoring and logging infrastructure using
+OpenBSD, RedHat Linux and Debian Linux</p>
+</li>
+<li>
+<p>Helped organize and perform a staged move of over 200 users, including
+implementation of a structured cabling solution and a raised floor server room
+during a six month period of office renovations</p>
+</li>
+<li>
+<p>Acted as a technical point of contact inside Penson helping in-house software
+developers troubleshoot issues with their software at the network layer</p>
+</li>
+</ul>
+<h3 id="network-administrator-secureops-inc">Network Administrator, SecureOps Inc</h3>
+<p><em>2002-2003</em></p>
+<p>Solely responsible for the administration of SecureOps Network Security
+infrastructure (NIDS, VPN, Firewall) and the administration of their general
+purpose UNIX infrastructure (DNS, Mail, Web, Databases, File server, etc.) Also
+provided services to SecureOps customers which included network audits and
+Firewall/VPN administration.</p>
+<ul>
+<li>Integrated various Unix intranet services with Windows 2000 Active Directory</li>
+<li>Helped organize and execute the move of all of SecureOps' server
+infrastructure</li>
+</ul>
+<h3 id="network-administrator-philosophie-bleue-inc">Network Administrator, Philosophie Bleue Inc.</h3>
+<p><em>2000-2002</em></p>
+<p>Primarily responsible for designing and implementing Philosophie Bleue's server
+infrastructure, including postmaster for 80 + domains and web server admin for
+30+ domains.</p>
+<ul>
+<li>Network, Server and Firewall administrator</li>
+<li>Migrated multiple services from Windows NT 4.0 to OpenBSD (DNS, Web)</li>
+<li>Researched and implemented network security measures (Firewalls/VPN Gateways &amp;
+NIDS)</li>
+</ul>
+<h2 id="professional-associations">Professional Associations</h2>
+<h3 id="co-founder-recon-security-conference">Co-Founder Recon Security Conference</h3>
+<p><em>2005 - present</em></p>
+<p>One of the founders and core organizers of a profitable computer security
+conference held annually in Montreal. Worked on all aspects of the conference,
+including speaker selection, media contact and promotion, provisioning,
+arranging the venue, conference network infrastructure, and volunteer staff
+co-ordination.</p>
+<h3 id="openbsd-developer">OpenBSD Developer</h3>
+<p><em>2004-2010</em></p>
+<p>I worked extensively with the porting team, acting as package maintainer for over
+a hundred different software packages. I have also worked heavily with OpenBSD's
+IPsec tool chain and am actively developing improvements to OpenBSD's IPsec
+support.</p>
+<h2 id="education">Education</h2>
+<ul>
+<li>A.E.P Network Administration - META2 Formation 2001</li>
+<li>High School Diploma - MIND High School, Montreal 1992</li>
+<li>Bilingual certificate (English/French) - MIND High School, Montreal 1992</li>
+</ul>
+<h2 id="languages">Languages</h2>
+<ul>
+<li>English (Fluent)</li>
+<li>French (Fluent)</li>
+<li>Japanese (Basic)</li>
+</ul>
+<h2 id="hobbies">Hobbies</h2>
+<ul>
+<li>Music (Guitar and Bass player)</li>
+<li>Aikido (1st degree black belt)</li>
+<li>Games (Board games and video games)</li>
+</ul>
+<!---
+vim: tw=72 ft=markdown fo=cq wm=0
+-->
+</section>
+
+  <hr />
+
+  <!-- Post Taxonomies -->
+  
+<footer class="mt-12 flex flex-col">
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <div class="mb-2 flex flex-wrap">
+    <span class="block-bg mb-1.5 mr-1.5 rounded-lg px-5 py-1.5">Tags </span>
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://kisoku.net/tags/resume/"
+      >resume</a
+    >
+    
+  </div>
+  
+</footer>
+
+<!---->
+
+  <!-- Post Nav -->
+  
+<!---->
+
+  <!-- Comment -->
+  
+</article>
+
+    </main>
+
+    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+    &copy;  2024
+    <a class="link" href="https://kisoku.net"
+      >Kisoku.NET | Learning How to Breathe</a
+    >
+    
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank"
+      >Powered by Zola</a
+    >
+    <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ Kita</a>
+  </div>
+</footer>
+
+  </body>
+</html>
