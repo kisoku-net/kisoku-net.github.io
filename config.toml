@@ -10,7 +10,7 @@ build_search_index = true
 generate_feed = true
 feed_filename = "atom.xml"
 
-theme = "kisanpu"
+theme = "kita"
 
 taxonomies = [
     { name = "categories" },
@@ -33,3 +33,32 @@ anpu_menu_links = [
     { url = "$BASE_URL/music/", name = "Music" },
     { url = "$BASE_URL/resume/msf/", name = "Resume" }
 ]
+
+[[extra.profile]]
+name = "Mathieu Sauve-Frankel"
+bio = "Staff Infrastructure Engineer, Musician, Hacker"
+avatar_url = "avatar.jpg"
+
+[[extra.profile.social]]
+name = "github"
+url = "https://github.com/kisoku"
+
+[[extra.profile.social]]
+name = "twitter"
+url = "https://twitter.com/kisoku"
+
+[[extra.profile.social]]
+name = "rss"
+url = "$BASE_URL/atom.xml"
+
+[[extra.menu]]
+name = "Blog"
+url = "$BASE_URL/"
+
+[[extra.menu]]
+name = "Music"
+url = "$BASE_URL/music/"
+
+[[extra.menu]]
+name = "Resume"
+url = "$BASE_URL/resume/msf/"
