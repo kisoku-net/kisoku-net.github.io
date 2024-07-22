@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Kisoku.NET | Learning How to Breathe</title>
+    <subtitle>Kisoku.NET | Learning How to Drive</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://kisoku.net/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://kisoku.net"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-07-22T00:00:00+00:00</updated>
+    <id>https://kisoku.net/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Mathieu Sauve-Frankel</title>
+        <published>2024-07-22T00:00:00+00:00</published>
+        <updated>2024-07-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://kisoku.net/resume/msf/"/>
+        <id>https://kisoku.net/resume/msf/</id>
+        
+        <content type="html" xml:base="https://kisoku.net/resume/msf/">&lt;p&gt;&lt;em&gt;&lt;a href=&quot;https:&#x2F;&#x2F;kisoku.net&quot;&gt;https:&#x2F;&#x2F;kisoku.net&lt;&#x2F;a&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;mailto:msf@kisoku.net&quot;&gt;msf@kisoku.net&lt;&#x2F;a&gt;&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;summary&quot;&gt;Summary&lt;&#x2F;h2&gt;
+&lt;p&gt;I am an automation engineer with over 20 years of experience. Self-motivated
+and autonomous, I bring a broad mix of systems, networking and security experience
+to bear in my day to day activities. I am constantly looking to challenge and improve myself.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;skills&quot;&gt;Skills&lt;&#x2F;h2&gt;
+&lt;p&gt;TCP&#x2F;IP, Unix&#x2F;Linux, Kubernetes, Configuration Management, Terraform, CI&#x2F;CD, git, IPsec, Firewalls, Oauth 2.0, Observability, AWS, GCP, Bare Metal, Ruby, Python, Perl&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;work-history&quot;&gt;Work History&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;woven-by-toyota-staff-infrastructure-engineer&quot;&gt;Woven by Toyota, Staff Infrastructure Engineer&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;2021 - Present&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lead Engineer for the Agora Platform Infrastructure team&lt;&#x2F;li&gt;
+&lt;li&gt;Technical lead for cross-disciplinary team of 14 engineers in a larger
+team of 70+ engineers&lt;&#x2F;li&gt;
+&lt;li&gt;Led recruitment efforts, selecting resumes, grading take home challenges, conducting interviews and member of the recommending committee&lt;&#x2F;li&gt;
+&lt;li&gt;Architected Multi-Region, multi-cluster Kubernetes cluster using AWS EKS in IPv6 Mode&lt;&#x2F;li&gt;
+&lt;li&gt;Collaborated with Build and Test engineers to support a Bazel based monorepo
+build system for 200+ application engineers&lt;&#x2F;li&gt;
+&lt;li&gt;Implemented CI&#x2F;CD solutions for Kubernetes (FluxCD, Prow)&lt;&#x2F;li&gt;
+&lt;li&gt;Collaborated with the CI&#x2F;CD team to build custom GitHub event handler software
+for a tailored CI&#x2F;CD solution&lt;&#x2F;li&gt;
+&lt;li&gt;Automated Terraform CI&#x2F;CD (Terragrunt, GitHub Actions)&lt;&#x2F;li&gt;
+&lt;li&gt;Enhanced GitHub Actions security (Oauth 2.0, GitHub Applications)&lt;&#x2F;li&gt;
+&lt;li&gt;Implemented Istio service mesh (multi-cluster, Solo.io Gloo Mesh)&lt;&#x2F;li&gt;
+&lt;li&gt;Collaborated  with security architects on platform threat model&lt;&#x2F;li&gt;
+&lt;li&gt;Collaborated with Woven City service teams to define requirements&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;fastly-japan-kk-principal-site-reliability-engineer&quot;&gt;Fastly Japan KK, Principal Site Reliability Engineer&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;2015 - 2021&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Technical lead on infrastructure automation for Fastly’s CDN product&lt;&#x2F;li&gt;
+&lt;li&gt;Led the multi-year effort to redesign and rebuild Fastly’s production Chef codebase&lt;&#x2F;li&gt;
+&lt;li&gt;Trained and mentored dozens of engineers&lt;&#x2F;li&gt;
+&lt;li&gt;Developed tooling for automated Chef development workflows (developer
+tools, CI)&lt;&#x2F;li&gt;
+&lt;li&gt;Built cloud infrastructure for Chef and CI (Terraform, GCP, AWS)&lt;&#x2F;li&gt;
+&lt;li&gt;Designed a replacement for chef-vault using Hashicorp Vault as backend&lt;&#x2F;li&gt;
+&lt;li&gt;Worked as part of the SRE team responsible for Fastly&#x27;s Data Plane&lt;&#x2F;li&gt;
+&lt;li&gt;Participated in on-call rotations, responding to production and security
+incidents&lt;&#x2F;li&gt;
+&lt;li&gt;Collaborated with service teams responsible for Fastly&#x27;s Control Plane&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;qualcomm-japan-staff-engineer-office-of-the-chief-scientist&quot;&gt;Qualcomm Japan, Staff Engineer, Office of the Chief Scientist&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;2010 - 2015&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Worked as part of the Qualcomm Open Source Portal team, an engineering group responsible for Open Source Evangelism, Education and License Compliance&lt;&#x2F;li&gt;
+&lt;li&gt;Led QOSP&#x27;s operations team&lt;&#x2F;li&gt;
+&lt;li&gt;Designed and implementing QOSP&#x27;s automation and release infrastructure&lt;&#x2F;li&gt;
+&lt;li&gt;Developed a test harness for QOSP&#x27;s flagship product&lt;&#x2F;li&gt;
+&lt;li&gt;Collaborated with QA engineers to implement automated testing&lt;&#x2F;li&gt;
+&lt;li&gt;Developed a distributed source code mirror system for QOSP&#x27;s flagship product&lt;&#x2F;li&gt;
+&lt;li&gt;Developed tools to automate operational tasks&lt;&#x2F;li&gt;
+&lt;li&gt;Researched and evaluated open source technologies for QOSP&#x27;s products&lt;&#x2F;li&gt;
+&lt;li&gt;Liaised with internal and external vendors&lt;&#x2F;li&gt;
+&lt;li&gt;Managed QOSP&#x27;s hardware budget&lt;&#x2F;li&gt;
+&lt;li&gt;Managed QOSP&#x27;s Continuous Integration infrastructure&lt;&#x2F;li&gt;
+&lt;li&gt;Managed QOSP&#x27;s Chef Server infrastructure&lt;&#x2F;li&gt;
+&lt;li&gt;Mentored QOSP&#x27;s development and operations teams&lt;&#x2F;li&gt;
+&lt;li&gt;Represented Qualcomm at Chef community events&lt;&#x2F;li&gt;
+&lt;li&gt;Developed a docker-based package builder for QOSP&#x27;s product lines&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;system-administrator-newedge&quot;&gt;System Administrator, Newedge&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;2009 - 2010&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Responsible for both Unix and Network administration duties at the largest commodities brokerage in Japan&lt;&#x2F;li&gt;
+&lt;li&gt;Implemented networks for colocated customers, including frequent visits
+to the Osaka Securities Exchange data centers&lt;&#x2F;li&gt;
+&lt;li&gt;Firewall, Switch and Router administration&lt;&#x2F;li&gt;
+&lt;li&gt;Linux server administrator for a variety of Financial applications&lt;&#x2F;li&gt;
+&lt;li&gt;Replaced a legacy monitoring system with Nagios&lt;&#x2F;li&gt;
+&lt;li&gt;Implemented Chef for Linux server management&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;senior-system-administrator-sbi-japannext&quot;&gt;Senior System Administrator, SBI Japannext&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;2007 - 2009&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Collaborated with hardware vendors to draft specification for 400 server
+data center&lt;&#x2F;li&gt;
+&lt;li&gt;Designed the network architecture for new data center&lt;&#x2F;li&gt;
+&lt;li&gt;Automated bare-metal deployment of stock exchange using Puppet, Cobbler and
+RHEL&lt;&#x2F;li&gt;
+&lt;li&gt;Mentored junior engineers on automation technologies and development practices&lt;&#x2F;li&gt;
+&lt;li&gt;Implemented virtualized testing using Xen server and Cobbler&lt;&#x2F;li&gt;
+&lt;li&gt;Wrote my own Puppet node classifier in Perl&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Professional work history prior to 2007 available upon request.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;professional-associations&quot;&gt;Professional Associations&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;co-founder-recon-security-conference&quot;&gt;Co-Founder Recon Security Conference&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;2005 - present&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;One of the founders and core organizers of a profitable computer security
+conference held annually in Montreal. Worked on all aspects of the conference,
+including speaker selection, media contact and promotion, provisioning,
+arranging the venue, conference network infrastructure, and volunteer staff
+co-ordination.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;openbsd-developer&quot;&gt;OpenBSD Developer&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;em&gt;2004-2010&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;I worked extensively with the porting team, acting as package maintainer for over
+a hundred different software packages. I have also worked heavily with OpenBSD&#x27;s
+IPsec tool chain and am actively developing improvements to OpenBSD&#x27;s IPsec
+support.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;education&quot;&gt;Education&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A.E.P Network Administration - META2 Formation 2001&lt;&#x2F;li&gt;
+&lt;li&gt;High School Diploma - MIND High School, Montreal 1992&lt;&#x2F;li&gt;
+&lt;li&gt;Bilingual certificate (English&#x2F;French) - MIND High School, Montreal 1992&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;languages&quot;&gt;Languages&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;English (Fluent)&lt;&#x2F;li&gt;
+&lt;li&gt;French (Fluent)&lt;&#x2F;li&gt;
+&lt;li&gt;Japanese (Basic)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;hobbies&quot;&gt;Hobbies&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Music (Guitar and Bass player)&lt;&#x2F;li&gt;
+&lt;li&gt;Aikido (1st degree black belt)&lt;&#x2F;li&gt;
+&lt;li&gt;Games (Board games and video games)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;!---
+vim: tw=72 ft=markdown fo=cq wm=0
+--&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Kisoku&#x27;s metal playlist March 18 - 21, 2024</title>
+        <published>2024-03-23T00:00:00+00:00</published>
+        <updated>2024-03-23T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://kisoku.net/playlist-2024031821/"/>
+        <id>https://kisoku.net/playlist-2024031821/</id>
+        
+        <content type="html" xml:base="https://kisoku.net/playlist-2024031821/">&lt;h1 id=&quot;a-trip-to-tokyo-gone-awry&quot;&gt;A trip to Tokyo gone awry&lt;&#x2F;h1&gt;
+&lt;p&gt;I recently took a small trip to Tokyo to meet some friends and do some sightseeing. It didn&#x27;t really go as planned but I managed to survive the trip and get back home safely.&lt;&#x2F;p&gt;
+&lt;p&gt;Here&#x27;s a playlist I made during the trip. All of the bands are quite excellent. I believe these are all available on bandcamp.com, so I will embed the players here:&lt;&#x2F;p&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=1839830338&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;rothadasdeathdoom.bandcamp.com&#x2F;album&#x2F;kop-r-hant-az-alvil-g-fel&quot;&gt;Kopár hant... az alvilág felé by Rothadás&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=2747238867&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;tombmold.bandcamp.com&#x2F;album&#x2F;cerulean-salvation&quot;&gt;Cerulean Salvation by Tomb Mold&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=758269553&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;vanum.bandcamp.com&#x2F;album&#x2F;ageless-fire-2&quot;&gt;Ageless Fire by VANUM&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=136900385&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ashborer.bandcamp.com&#x2F;album&#x2F;the-irrepassable-gate&quot;&gt;The Irrepassable Gate by Ash Borer&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=2891745840&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;diskord.bandcamp.com&#x2F;album&#x2F;oscillations&quot;&gt;Oscillations by Diskord&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=4193290152&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;brii.bandcamp.com&#x2F;album&#x2F;sem-prop-sito&quot;&gt;Sem Propósito by Bríi&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=2284634550&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;listen.20buckspin.com&#x2F;album&#x2F;tide-turns-eternal&quot;&gt;Tide Turns Eternal by Dream Unending&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=967256187&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;ehecatl-ebbm.bandcamp.com&#x2F;album&#x2F;rites-of-ascension-phase-ii-2&quot;&gt;Rites of Ascension_Phase: II by Ehecatl&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tabula Rasa</title>
+        <published>2024-03-05T00:00:00+00:00</published>
+        <updated>2024-03-05T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://kisoku.net/tabularasa/"/>
+        <id>https://kisoku.net/tabularasa/</id>
+        
+        <content type="html" xml:base="https://kisoku.net/tabularasa/">&lt;h1 id=&quot;a-slate-emblankened&quot;&gt;A slate, emblankened.&lt;&#x2F;h1&gt;
+&lt;p&gt;Welcome back...&lt;&#x2F;p&gt;
+&lt;p&gt;The urge to start over increases with each perceived failure. Perhaps it will be different this time. My writing skills atrophy over time, and as I become increasingly dependent on mental models, my frustration with my work exponentiates.&lt;&#x2F;p&gt;
+&lt;p&gt;Perhaps by continuing to exercise, entropy will be reduced.&lt;&#x2F;p&gt;
+&lt;p&gt;I have bigger plans for this site, best left unspoken for now. I will also dedicate some effort to restoring the historical content of this site in due time.&lt;&#x2F;p&gt;
+&lt;p&gt;Until then, I shall ponder the void a little longer.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Scrying Pool Releases</title>
+        <published>2023-03-12T00:00:00+00:00</published>
+        <updated>2023-03-12T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://kisoku.net/music/scrying-pool/"/>
+        <id>https://kisoku.net/music/scrying-pool/</id>
+        
+        <content type="html" xml:base="https://kisoku.net/music/scrying-pool/">&lt;p&gt;Scrying Pool is the latest project by Mathieu Sauve-Frankel.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;album&#x2F;iii&quot;&gt;Released on Feb 14th, 2024: III&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=3773827828&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;album&#x2F;iii&quot;&gt;III by Scrying Pool&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;album&#x2F;ii&quot;&gt;Released on March 12th, 2024: II&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=1792261708&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;album&#x2F;ii&quot;&gt;II by Scrying Pool&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;album&#x2F;i&quot;&gt;Released on April 1st, 2024: I&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;iframe style=&quot;border: 0; width: 100%; height: 120px;&quot; src=&quot;https:&#x2F;&#x2F;bandcamp.com&#x2F;EmbeddedPlayer&#x2F;album=94006111&#x2F;size=large&#x2F;bgcol=ffffff&#x2F;linkcol=0687f5&#x2F;tracklist=false&#x2F;artwork=small&#x2F;transparent=true&#x2F;&quot; seamless&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;album&#x2F;i&quot;&gt;I by Scrying Pool&lt;&#x2F;a&gt;&lt;&#x2F;iframe&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https:&#x2F;&#x2F;scryingpool.bandcamp.com&#x2F;follow_me&quot;&gt;Follow me on Bandcamp&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+</feed>
