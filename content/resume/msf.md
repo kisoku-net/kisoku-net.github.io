@@ -1,6 +1,6 @@
 +++
 title = "Mathieu Sauve-Frankel"
-date = "2024-04-11"
+date = "2024-07-22"
 
 [taxonomies]
 tags = ["resume"]
@@ -52,7 +52,7 @@ TCP/IP, Unix/Linux, Kubernetes, Configuration Management, Terraform, CI/CD, git,
 * Built cloud infrastructure for Chef and CI (Terraform, GCP, AWS)
 * Designed a replacement for chef-vault using Hashicorp Vault as backend
 * Worked as part of the SRE team responsible for Fastly's Data Plane
-* participated in on-call rotations, responding to production and security
+* Participated in on-call rotations, responding to production and security
   incidents
 * Collaborated with service teams responsible for Fastly's Control Plane
 
@@ -67,7 +67,7 @@ TCP/IP, Unix/Linux, Kubernetes, Configuration Management, Terraform, CI/CD, git,
 * Developed a distributed source code mirror system for QOSP's flagship product
 * Developed tools to automate operational tasks
 * Researched and evaluated open source technologies for QOSP's products
-* Liased with internal and external vendors
+* Liaised with internal and external vendors
 * Managed QOSP's hardware budget
 * Managed QOSP's Continuous Integration infrastructure
 * Managed QOSP's Chef Server infrastructure
